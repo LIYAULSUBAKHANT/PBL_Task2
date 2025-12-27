@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Glass Music Player</title>
+  <link rel="stylesheet" href="musicstyle.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet" />
+</head>
+<body>
+  <div class="bg-blur"></div>
+  <div class="player-wrapper">
+    <header class="player-header">
+      <div class="logo">
+        <span class="dot"></span>
+        <span class="brand">Nova Beats</span>
+      </div>
+      <div class="header-icons">
+        <span class="icon">&#128264;</span>
+        <span class="icon">&#9881;</span>
+      </div>
+    </header>
+
+    <main class="player-main">
+      <div class="album-art">
+        <div class="disk"></div>
+      </div>
+
+      <div class="track-info">
+        <h1 class="track-title">Midnight Echoes</h1>
+        <p class="track-artist">Dreamwave Collective</p>
+        <p class="track-album">Aurora Nights · Single</p>
+      </div>
+
+      <div class="chips">
+        <span class="chip active">Chill</span>
+        <span class="chip">Lo-fi</span>
+        <span class="chip">Focus</span>
+      </div>
+
+      <div class="time-row">
+        <span class="time current">01:23</span>
+        <span class="time total">03:48</span>
+      </div>
+
+      <div class="progress">
+        <div class="progress-track">
+          <div class="progress-buffer"></div>
+          <div class="progress-fill">
+            <span class="progress-thumb"></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="controls">
+        <button class="btn-circle small">
+          &#8634;
+        </button>
+        <button class="btn-circle">
+          &#9198;
+        </button>
+        <button class="btn-circle primary play-btn">
+          &#9658;
+        </button>
+        <button class="btn-circle">
+          &#9197;
+        </button>
+        <button class="btn-circle small">
+          &#128266;
+        </button>
+      </div>
+
+      <div class="queue">
+        <h2 class="queue-title">Up Next</h2>
+        <div class="queue-item active">
+          <div class="queue-text">
+            <span class="q-title">Neon Skyline</span>
+            <span class="q-artist">Citylights</span>
+          </div>
+          <span class="q-time">2:57</span>
+        </div>
+        <div class="queue-item">
+          <div class="queue-text">
+            <span class="q-title">Cloud Drift</span>
+            <span class="q-artist">Luma</span>
+          </div>
+          <span class="q-time">4:11</span>
+        </div>
+        <div class="queue-item">
+          <div class="queue-text">
+            <span class="q-title">Pixel Dreams</span>
+            <span class="q-artist">RetroSyn</span>
+          </div>
+          <span class="q-time">3:39</span>
+        </div>
+      </div>
+    </main>
+  </div>
+</body>
+</html>
